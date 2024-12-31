@@ -1,0 +1,26 @@
+.free {
+  color: gray;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.sale {
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #ff7777;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.signUp {
+  color: #80b7e6;
+  background-color: white;
+  border: 1px solid #80b7e6;
+  border-radius: 5px;
+  padding: 5px;
+}

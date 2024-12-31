@@ -1,0 +1,60 @@
+.aptBtn1 {
+  color: white;
+  font-weight: 250;
+  background-color: black;
+  border-radius: 17px;
+  border: 1.5px solid black;
+  padding: 7px 10px;
+}
+
+.aptBtn2 {
+  background-color: white;
+  font-weight: 250;
+  border-radius: 17px;
+  border: 1.5px solid lightgray;
+  padding: 7px 10px;
+}
+
+.bestBtn1 {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #35c5f1;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 14px;
+}
+
+.bestBtn2 {
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #e6e6e6;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 14px;
+}
+
+.loginBtn {
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px 120px;
+  display: block;
+}
+
+.kakaoBtn {
+  background-color: #fee600;
+  border: 2px solid #fee600;
+  border-radius: 5px;
+  padding: 10px 90px;
+  display: block;
+}
+
+.appleBtn {
+  background-color: white;
+  border: 2px solid #e6e6e6;
+  border-radius: 5px;
+  padding: 12px 95px;
+  display: block;
+}
