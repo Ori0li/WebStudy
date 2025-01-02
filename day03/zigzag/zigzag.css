@@ -1,13 +1,13 @@
 .card {
   width: 200px;
   height: 450px;
-
   margin: 10px auto;
 }
 
 .card > img {
   width: 100%;
   height: 55%;
+  margin-bottom: 8px;
   object-fit: cover;
 }
 
@@ -16,18 +16,15 @@
   font-weight: 400;
 }
 
-.info {
-  padding: 7px;
-}
-
-.text,
-.tag,
-.btn,
-.rating {
+.mb {
   margin-bottom: 10px;
 }
 
-.name {
+.gray {
+  color: gray;
+}
+
+.fw9 {
   font-weight: 900;
 }
 
@@ -36,7 +33,7 @@
   font-weight: 600;
 }
 
-.grayBtn {
+.btn > button {
   font-size: 12px;
   color: #747c80;
   border: none;
@@ -45,13 +42,7 @@
   padding: 3px 5px;
 }
 
-.rating > i {
-  color: gray;
-  font-size: 9px;
-}
-
 .rating {
-  color: gray;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 900;
 }
