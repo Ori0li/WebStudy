@@ -1,0 +1,43 @@
+.btn {
+  background-color: #1a66cc;
+  color: white;
+  border: none;
+  margin: 0 20px;
+}
+/* 
+btn으로 끝낼게 아니라 색상으로 하는게 더 좋았을듯
+
+.blue{
+    background-color: #1a66cc;
+    color: white;
+}
+
+.squar {
+    border-radius: 5px;
+    border: none;
+    margin: 0 20px;
+}
+
+HTML 
+    <button class="blue squar p-1">Button</button>
+
+요론식으로
+*/
+
+.squar {
+  border-radius: 5px;
+}
+
+.pill {
+  border-radius: 30px;
+}
+
+.p-1 {
+  padding: 5px 10px;
+}
+.p-2 {
+  padding: 10px 50px;
+}
+.p-3 {
+  padding: 15px 100px;
+}

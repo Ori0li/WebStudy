@@ -1,0 +1,95 @@
+.redBtn1 {
+  color: white;
+  background-color: crimson;
+  border-radius: 25px;
+  border: none;
+  padding: 7px 8px;
+}
+
+.redBtn2 {
+  color: white;
+  background-color: crimson;
+  border-radius: 25px;
+  border: none;
+  padding: 7px 20px;
+}
+
+.redBtn3 {
+  color: white;
+  background-color: crimson;
+  border-radius: 25px;
+  border: none;
+  padding: 7px 50px;
+}
+
+.appleBtn {
+  color: white;
+  background-color: black;
+  font-weight: 700;
+  border-radius: 25px;
+  border: none;
+  padding: 15px 100px;
+  margin-bottom: 7px;
+  display: block;
+}
+
+.googleBtn {
+  background-color: white;
+  font-weight: 700;
+  border-radius: 25px;
+  border: 2px solid black;
+  padding: 15px 93px;
+  display: block;
+  margin-bottom: 7px;
+}
+
+.kakaoBtn {
+  background-color: #f2da00;
+  font-weight: 900;
+  padding: 15px 80px;
+  border: none;
+  border-radius: 5px;
+}
+
+.marketBtn {
+  background-color: white;
+  border: 1.5px solid #e6e6e6;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: 900;
+  margin-bottom: 7px;
+  display: block;
+}
+
+/* 태그 div 직접적으로 준 CSS*/
+
+i {
+  margin-right: 10px;
+}
+
+.redBtn,
+.login,
+.kakao,
+.market {
+  margin-bottom: 10px;
+}
+
+/* .pillBtn{
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+.p-1{
+    padding: 7px 8px;
+} 
+    
+
+.p-2{
+    padding: 7px 15px;
+} 
+    
+이런식으로 하고 HTML class 설정할때 class="pillBtn p-1" 이런식으로 하면 깔끔하게 적용됨
+
+*/
