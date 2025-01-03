@@ -1,0 +1,35 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.palet {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+}
+
+.tomato {
+  background-color: #ffdcd3;
+}
+.purple {
+  background-color: #f2e2fc;
+}
+.iris {
+  background-color: #dadcff;
+}
+.teal {
+  background-color: #b8eae0;
+}
+.brown {
+  background-color: #ebdaca;
+}

@@ -1,0 +1,56 @@
+.modal {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.light {
+  background-image: url("light.jpg");
+}
+
+.coding {
+  background-image: url("coding.jpg");
+}
+
+.programmer {
+  background-image: url("programmer.jpg");
+}
+
+.card {
+  width: 280px;
+  height: 400px;
+  border-radius: 15px;
+  border: none;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+}
+
+.card > button {
+  background-color: transparent;
+  color: orange;
+  border: 1px solid orange;
+  border-radius: 20px;
+  padding: 9px 10px;
+  font-size: 12px;
+  margin-top: 90px;
+  margin-bottom: 15px;
+}
+
+.content {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 50px;
+  padding-bottom: 8px;
+}
+
+.more {
+  color: gray;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+.more > i {
+  padding-left: 4px;
+}

@@ -1,0 +1,90 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.sub {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+
+  padding: 70px 15px;
+  border: 1px solid black;
+}
+
+.card {
+  width: 500px;
+  height: 300px;
+
+  background-size: cover;
+  background-position: 50% 50%;
+
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+
+  margin: 0 20px;
+}
+
+.title,
+.subtitle {
+  color: white;
+  font-weight: 700;
+}
+
+.title {
+  padding: 40px 0;
+  font-size: 40px;
+  line-height: 50px;
+
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+
+.subtitle {
+  padding: 20px;
+  font-size: 14px;
+}
+
+.card > button {
+  background-color: transparent;
+  border-radius: 30px;
+  border: 3px solid white;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 50px;
+}
+
+.w1 {
+  background-image: url("w1.jpg");
+}
+
+.w2 {
+  background-image: url("w2.jpg");
+}
+
+.w3 {
+  background-image: url("w3.jpg");
+}
+
+.w4 {
+  background-image: url("w4.jpg");
+}
+
+.w5 {
+  background-image: url("w5.jpg");
+}
+
+.w6 {
+  background-image: url("w6.jpg");
+}

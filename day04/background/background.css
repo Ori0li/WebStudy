@@ -1,0 +1,8 @@
+.card {
+  width: 300px;
+  height: 400px;
+  background-image: url("sunset.jpg");
+  background-size: cover;
+  /*position : x축 y축 */
+  background-position: 50% 50%;
+}
