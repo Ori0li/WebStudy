@@ -1,0 +1,28 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  /* 변화 되는 모든것을 1초에 걸려서 보여달라 */
+  transition: all 1s;
+}
+
+.box:hover {
+  background-color: yellow;
+  /* 방향 돌리기 */
+  transform: rotate(30deg);
+  /* 크기 관련 */
+  /* transform: scale(1.5); */
+}
+
+.bigbox {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+
+  transition: all 1s;
+}
+
+.bigbox:hover {
+  background-color: skyblue;
+  transform: scale(2) rotate(45deg);
+}

@@ -1,0 +1,109 @@
+/* 겹치는 것 */
+.fs11 {
+  font-size: 10px;
+}
+
+.fs20 {
+  font-size: 20px;
+}
+
+.fw {
+  font-weight: 900;
+}
+
+.mb {
+  margin-bottom: 20px;
+}
+
+.pb {
+  padding-bottom: 8px;
+}
+
+.uline {
+  text-decoration: underline;
+}
+
+/* 색상 */
+.indigo {
+  background-color: #c1d0ff;
+}
+
+.indigoL {
+  background-color: #edf2fe;
+}
+
+.violet {
+  background-color: #aa99ec;
+}
+
+.blue {
+  background-color: #acd8fc;
+}
+
+.tomato {
+  background-color: #fdbdaf;
+}
+
+.green {
+  background-color: #adddc0;
+}
+
+.amber {
+  background-color: #ffee9c;
+}
+
+.iris {
+  background-color: #cbcdff;
+}
+
+/* 태그 */
+.container {
+  margin: 20px 300px;
+}
+
+.info,
+.tecSkill {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.infoCard {
+  width: 100px;
+  height: 100px;
+
+  border-radius: 9999px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.skillCard {
+  width: 180px;
+  height: 150px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 10px;
+}
+
+.skillCard > i {
+  font-size: 40px;
+  width: 70px;
+  height: 70px;
+
+  background-color: white;
+  border-radius: 9999px;
+  margin-bottom: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

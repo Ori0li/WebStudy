@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../../common/reset.css" />
+    <link rel="stylesheet" href="position.css" />
+  </head>
+  <body>
+    <div class="paletCon">
+      <div class="palet">
+        <div class="box green">
+          <div
+            style="position: relative; top: 20px; left: 30px"
+            class="mini"
+          ></div>
+        </div>
+        <div class="box blue">
+          <div style="position: relative; top: 50%; left: 50%" class="mini">
+            relative는 현재 위치에서 움직인다
+          </div>
+        </div>
+      </div>
+      <div class="palet">
+        <div style="position: relative" class="box orange">
+          <div>오징어게임(absolute는 웹 브라우저 기준)</div>
+          <div
+            style="position: fixed; top: 100px; left: 100px"
+            class="mini"
+          ></div>
+        </div>
+        <div class="box crimson">
+          <div class="mini"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

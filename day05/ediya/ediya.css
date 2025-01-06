@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  width: 100vw;
+  height: 100vh;
+
+  margin: 20px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.drinkCard {
+  background-color: #e6e6e6;
+  width: fit-content;
+  padding: 50px 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.drinkCard > img {
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.4s;
+}
+
+.btn {
+  background-color: #272962;
+  color: white;
+  font-size: 13px;
+
+  border: none;
+  padding: 7px 10px;
+}
+
+.drinkCard > img:hover {
+  transform: scale(1.2) rotate(10deg);
+}
+
+.drink {
+  position: relative;
+}
+
+.drink:hover > .blur {
+  opacity: 1;
+}
+
+.blur {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+
+  font-size: 30px;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+  transition: all 0.5s;
+  opacity: 0;
+}
