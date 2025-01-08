@@ -1,0 +1,42 @@
+footer {
+  width: 100vw;
+  background-color: black;
+  padding: 60px;
+}
+
+footer > .content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  color: #8d8d8d;
+}
+
+.corpTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 30px;
+}
+
+.corpTitle > ul {
+  display: flex;
+  gap: 10px;
+}
+
+.corpTitle > ul > li {
+  font-size: 12px;
+}
+
+.corpInfo {
+  border-top: 1px solid #8d8d8d;
+  padding: 20px 0;
+}
+
+.corpInfo > p {
+  padding: 10px 0;
+  font-size: 10px;
+
+  line-height: 15px;
+}

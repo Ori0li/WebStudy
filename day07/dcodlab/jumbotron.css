@@ -1,0 +1,52 @@
+.jumbotron {
+  height: 80vh;
+  background-image: url("darkCity.jpg");
+  background-size: cover;
+  object-position: 50% 50%;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.jumbotron > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: white;
+  z-index: 1;
+}
+
+.jumbotron > .contents > .title {
+  font-size: 130px;
+  margin-bottom: 30px;
+}
+
+.jumbotron > .contents > .sub_title {
+  font-size: 14px;
+  line-height: 20px;
+
+  margin-bottom: 60px;
+}
+
+.jumbotron > .contents > .button {
+  width: fit-content;
+  font-size: 10px;
+  padding: 5px 120px;
+  color: white;
+  background-color: transparent;
+
+  border: 1.5px solid white;
+}
+
+.blur {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+}

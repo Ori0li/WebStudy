@@ -1,0 +1,54 @@
+.hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero > .contents > .title {
+  text-align: center;
+  font-size: 26px;
+
+  margin-bottom: 50px;
+}
+
+.cardLayout {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.hero > .contents > .cardLayout > .card {
+  width: 240px;
+}
+
+.card > img {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cardInfo > .cardTitle {
+  font-size: 14px;
+}
+
+.cardInfo > .cardInit {
+  font-size: 12px;
+  color: gray;
+  line-height: 17 px;
+}
