@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "GowunDodum-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "GowunDodum-Regular";
+}
+
+.cardContainer {
+  margin: 20px auto;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+
+  box-shadow: 10px 10px 30px 0px rgba(206, 206, 206, 0.6);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card__nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__nav > i {
+  font-size: 20px;
+}
+
+.card__photo {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__image {
+  width: 150px;
+  overflow: hidden;
+}
+
+.card__photo > .card__image > img {
+  width: 100%;
+  object-fit: cover;
+  border: 1px solid #bbbbbb;
+  border-radius: 9999px;
+}
+
+.card__user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card__user > .card__user--name {
+  font-size: 25px;
+}
+
+.card__user > .card__user--desciption {
+  font-size: 14px;
+  color: #bbbbbb;
+}
+
+.card__btn > button {
+  background-color: skyblue;
+  font-size: 10px;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 50px;
+
+  box-shadow: 10px 10px 30px 0px rgba(75, 151, 230, 0.4);
+}
+
+.card__Info > .card__userInfo {
+  margin-bottom: 20px;
+
+  font-size: 13px;
+
+  display: flex;
+  gap: 20px;
+}
+
+.circle__color {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.circle__color > .circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 9999px;
+}
+
+.blue {
+  background-color: #5eb1ef;
+  box-shadow: 10px 5px 5px rgb(94, 177, 239, 0.3);
+}
+
+.green {
+  background-color: #8bceb6;
+  box-shadow: 10px 5px 5px rgb(139, 206, 182, 0.3);
+}
+
+.pink {
+  background-color: #e7acd0;
+  box-shadow: 10px 5px 5px rgb(231, 172, 208, 0.3);
+}
+
+.purple {
+  background-color: #c2b5f5;
+  box-shadow: 10px 5px 5px rgb(194, 181, 245, 0.3);
+}

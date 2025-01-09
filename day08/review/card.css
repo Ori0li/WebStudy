@@ -1,0 +1,58 @@
+.cardSection {
+  height: 80vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardSection > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.cardSection > .contents > .title {
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+
+.cardSection > .contents > .cardLayout {
+  display: flex;
+  gap: 15px;
+}
+
+.cardSection > .contents > .cardLayout > .card {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cardSection > .contents > .cardLayout > .card > img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.cardSection > .contents > .cardLayout > .card > .cardInfo {
+  font-size: 14px;
+  color: #838383;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cardSection > .contents > .cardLayout > .card > .cardInfo > span {
+  font-size: 12px;
+}
+
+.cardSection > .contents > .cardLayout > .card > .cardInfo > p {
+  font-size: 10px;
+}

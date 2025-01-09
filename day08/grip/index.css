@@ -1,0 +1,42 @@
+.scrollBox {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconLayout {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 30px;
+
+  height: 200px;
+  padding: 30px;
+  background-color: #e0e0e0;
+
+  overflow: scroll;
+}
+
+.iconBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 4px;
+}
+
+.iconLayout::-webkit-scrollbar {
+  display: none;
+}
+
+.icon {
+  background-color: #646464;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.iconBox > p {
+  font-size: 14px;
+}
