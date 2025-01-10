@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "GowunDodum-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "GowunDodum-Regular";
+}
+
+header {
+  width: 100%;
+  position: fixed;
+}
+
+header > nav {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  padding: 7px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: transparent;
+}
+
+header > nav > .logo > img {
+  width: 150px;
+}
+
+header > nav > .navItem > i {
+  font-size: 30px;
+  color: #00b8fe;
+}

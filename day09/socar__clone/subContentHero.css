@@ -1,0 +1,47 @@
+.subContent__Hero {
+  width: 100%;
+  padding: 100px;
+}
+
+.subContent__Hero > .contents {
+  width: 800px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 30px;
+}
+
+.subContent__Hero > .contents > .title {
+  display: flex;
+  align-items: center;
+
+  font-size: 45px;
+  font-weight: 900;
+}
+
+.subContent__Hero > .contents > .subtitle {
+  font-size: 18px;
+  line-height: 25px;
+
+  color: gray;
+}
+
+.subContent__Hero > .contents > .title > p {
+  color: skyblue;
+  font-size: 60px;
+}
+
+.subContent__Hero > .contents > .photo > img {
+  width: 100%;
+  object-fit: cover;
+  position: 50% 50%;
+}
+
+.subContent__Hero > .contents:last-child {
+  margin-bottom: 100px;
+}

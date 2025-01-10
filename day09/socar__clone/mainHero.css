@@ -1,0 +1,25 @@
+.main__Hero {
+  width: 100%;
+  height: 100vh;
+
+  background-image: url("socar_main.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.main__Hero > .contents {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.main__Hero > .contents > .title {
+  color: white;
+  font-size: 60px;
+}
