@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+}
+
+.list {
+  display: flex;
+  gap: 20px;
+}
+
+.ham {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .ham {
+    display: block;
+  }
+
+  .list {
+    display: none;
+  }
+}
